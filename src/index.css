@@ -1,7 +1,12 @@
+@font-face {
+	font-family: 'Archer';
+	src: url('./Archer-Bold-Pro.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "monospace", Courier New, Courier, ;
+  font-family: "Archer", Courier New, Courier;
   background: linear-gradient(to left,  #000066 0%, #0066ff 100%);
 }
 
