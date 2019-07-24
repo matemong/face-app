@@ -23,7 +23,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/register', {
+    fetch('https://protected-tundra-49573.herokuapp.com/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -47,7 +47,7 @@ class Register extends React.Component {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0 white">Register</legend>
+              <legend className="f1 fw6 ph0 mh0 white center">Register</legend>
               <div className="mt3">
                 <label className="db fw6 lh-copy f4 white" htmlFor="name">Name</label>
                 <input
